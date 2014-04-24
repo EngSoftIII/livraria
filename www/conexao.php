@@ -3,14 +3,12 @@
 class conexao
 {
 
-    /*
-        Altere as variaveis a seguir caso necessario
-    */
+    
 
-    private $db_host = 'localhost'; // servidor
-    private $db_user = 'root'; // usuario do banco
-    private $db_pass = ''; // senha do usuario do banco
-    private $db_name = 'crud'; // nome do banco
+    private $db_host = 'localhost';
+    private $db_user = 'root'; 
+    private $db_pass = ''; // 
+    private $db_name = 'livraria'; 
 
     private $con = false;
 
@@ -45,7 +43,7 @@ class conexao
     }
 
  
-    public function disconnect() // fecha conexao
+    public function disconnect() 
     {
     if($this->con)
     {
