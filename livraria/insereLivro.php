@@ -1,6 +1,6 @@
 <?php
 require("conecta.php");
-require("livro.class.php");
+require("class/livro.class.php");
 
 $livro= new Livro;
 $livro->InsereLivros();
